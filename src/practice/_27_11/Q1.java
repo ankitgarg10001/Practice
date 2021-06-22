@@ -10,7 +10,7 @@ import java.util.Scanner;
  * Camera Purchase
 E-commerce sites keep experimenting to decide which products to display in what order, to increase a
 shopper's likelihood of buying. Your goal is to perform one such experiment.
-Suppose, there are 5 brands of cameras sold on your website – Nikon, Canon, Sigma, Fujifilm and Sony.
+Suppose, there are 5 brands of cameras sold on your website ï¿½ Nikon, Canon, Sigma, Fujifilm and Sony.
 Each of these brands sell different cameras at distinct prices. For simplicity, each brand is represented by
 an integer between to . Your website has shopppers each of whom has a list of brands they are
 willing to buy from. Based on every user's buying history, you know that they are most likely to buy the
@@ -116,7 +116,7 @@ public class Q1 {
 			}
 			Collections.sort(result);
 			int l = s.nextInt();
-			System.out.println(l <= result.size() ? result.get(l - 1) : -1);
+			System.out.println((l <= result.size() ? result.get(l - 1) : -1)+"");
 
 		}
 		s.close();

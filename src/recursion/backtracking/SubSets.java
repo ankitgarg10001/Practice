@@ -14,7 +14,7 @@ public class SubSets {
 		//		x.add(4);
 		//		x.add(5);
 		showSubSets(x);
-		result.stream().forEach(System.out::println);
+		result.forEach(System.out::println);
 	}
 
 	static Set<Set<Integer>> result = new HashSet<>();

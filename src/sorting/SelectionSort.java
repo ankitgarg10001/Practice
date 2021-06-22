@@ -2,7 +2,7 @@ package sorting;
 
 public class SelectionSort extends Sorts {
 	public static void main(String args[]) {
-		Integer arr[] = getJumbeledArray(10);
+		Integer arr[] = getJumbledArray(10);
 		SelectionSort ob = new SelectionSort();
 		System.out.println("Input:");
 		ob.printArray(arr);

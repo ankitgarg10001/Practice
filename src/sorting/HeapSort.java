@@ -2,7 +2,7 @@ package sorting;
 
 public class HeapSort extends Sorts {
 	public static void main(String args[]) {
-		Integer arr[] = getJumbeledArray(10);
+		Integer arr[] = getJumbledArray(10);
 		HeapSort ob = new HeapSort();
 		System.out.println("Input:");
 		ob.printArray(arr);

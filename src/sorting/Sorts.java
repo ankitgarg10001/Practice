@@ -1,28 +1,23 @@
 package sorting;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+import java.util.Arrays;
+import java.util.Random;
 
 public abstract class Sorts {
-	protected static Integer[] getJumbeledArray(int i) {
-		List<Integer> list = new ArrayList<>();
-		for (int j = 0; j < i; j++) {
-			list.add(j + 1);
 
-		}
-		Collections.shuffle(list);
-		return list.toArray(new Integer[list.size()]);
-		// return list.stream().mapToInt(Integer::intValue).toArray();
-	}
+    protected static Integer[] getJumbledArray(int i) {
+        return new Random()
+            .ints(0, 100)
+            .limit(10)
+            .boxed()
+            .toArray(Integer[]::new);
+    }
 
-	protected void printArray(Integer[] arr) {
-		int n = arr.length;
-		for (int i = 0; i < n; ++i)
-			System.out.print(arr[i] + " ");
-		System.out.println();
-	}
+    protected void printArray(Integer[] arr) {
+        Arrays.stream(arr).forEach(t -> System.out.print(t + " "));
+        System.out.println();
+    }
 
-	public abstract void sort(Integer[] arr);
+    public abstract void sort(Integer[] arr);
 
 }

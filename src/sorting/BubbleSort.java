@@ -2,7 +2,7 @@ package sorting;
 
 public class BubbleSort extends Sorts {
 	public static void main(String args[]) {
-		Integer arr[] = getJumbeledArray(10);
+		Integer arr[] = getJumbledArray(10);
 		BubbleSort ob = new BubbleSort();
 		System.out.println("Input:");
 		ob.printArray(arr);
