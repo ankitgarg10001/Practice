@@ -26,15 +26,15 @@ class TestClass {
 		for (int i = 0; i < C; i++) {
 			line = br.readLine();
 			String[] s = line.split(" ");
-			M = new Integer(s[0]);
-			N = new Integer(s[1]);
-			Q = new Integer(s[2]);
+			M = Integer.valueOf(s[0]);
+			N = Integer.valueOf(s[1]);
+			Q = Integer.valueOf(s[2]);
 			horses = new Integer[Q][2];
 			for (int j = 0; j < Q; j++) {
 				line = br.readLine();
 				String[] k = line.split(" ");
-				horses[j][0] = new Integer(k[0]);
-				horses[j][1] = new Integer(k[1]);
+				horses[j][0] = Integer.valueOf(k[0]);
+				horses[j][1] = Integer.valueOf(k[1]);
 			}
 			System.out.println(CountMoves(0));
 		}

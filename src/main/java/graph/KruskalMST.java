@@ -6,7 +6,6 @@ public class KruskalMST extends Graph {
 	public KruskalMST(int length) {
 		super(length);
 	}
-
 	public static void main(String[] args) {
 		Graph g = getSampleGraph();
 		KruskalMST g1 = new KruskalMST(g.edges.length);
