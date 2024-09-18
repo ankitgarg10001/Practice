@@ -2,7 +2,7 @@ package string_manipulation;
 
 import java.util.Scanner;
 
-/*MS Excel columns has a pattern like A, B, C, … ,Z, AA, AB, AC,…. ,AZ, BA, BB, … ZZ, AAA, AAB ….. etc. In other words, column 1 is named as “A”, column 2 as “B”, column 27 as “AA”.
+/*MS Excel columns has a pattern like A, B, C, ... ,Z, AA, AB, AC,... ,AZ, BA, BB, ... ZZ, AAA, AAB .... etc. In other words, column 1 is named as â€œAâ€, column 2 as â€œBâ€, column 27 as â€œAAâ€.
 
 Given a column number, find its corresponding Excel column name. Following are more examples.
 

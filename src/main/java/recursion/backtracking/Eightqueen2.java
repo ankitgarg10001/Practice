@@ -12,9 +12,6 @@ public class Eightqueen2 {
     static int a[][] = new int[8][8];
     static int q = 0;
 
-    /**
-     * @param args the command line arguments
-     */
     static boolean putqueen(int i) {
         if (q == 8) {
 
